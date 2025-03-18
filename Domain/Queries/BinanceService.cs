@@ -1,4 +1,5 @@
-﻿using Domain.Dto;
+﻿using Binance.Net.Clients;
+using Domain.Dto;
 using Service;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ namespace Domain.Queries
 {
     public class BinanceService : IExchangeService<string, TickerDto>
     {
-        private readonly Binance.Net.Clients.BinanceClient _client;
+        private readonly BinanceClient _client;
 
         public BinanceService()
         {

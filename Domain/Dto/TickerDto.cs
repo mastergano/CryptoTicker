@@ -10,7 +10,7 @@ namespace Domain.Dto
     {
         public string Exchange { get; set; }
         public string TradingPair { get; set; }
-        public decimal Price { get; set; }
+        public decimal Price { get; set; } 
 
         public TickerDto(string exchange, string tradingPair, decimal price)
         {
