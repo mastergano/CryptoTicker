@@ -7,7 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Binance.Net" Version="10.18.0" />
+    <PackageReference Include="Binance.Net" Version="8.6.0" />
+    <PackageReference Include="Bitget.Net" Version="8.4.3" />
+    <PackageReference Include="Bybit.Net" Version="2.0.5" />
+    <PackageReference Include="Kucoin.Net" Version="6.0.1" />
   </ItemGroup>
 
   <ItemGroup>
