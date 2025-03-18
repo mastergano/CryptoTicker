@@ -8,4 +8,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Binance.Net" Version="10.18.0" />
+    <PackageReference Include="Bitget.Net" Version="8.5.7" />
+    <PackageReference Include="Bybit.Net" Version="4.3.2" />
+    <PackageReference Include="Kucoin.Net" Version="6.0.1" />
+  </ItemGroup>
+
 </Project>
